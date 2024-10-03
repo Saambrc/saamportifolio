@@ -1,0 +1,34 @@
+img{
+    border-radius: 80%;
+    
+}
+body {
+    background-color: black;
+    color: white;
+    font-family: serif;
+    text-align: center;
+    
+
+}
+h1,h2, p, ul, li, div a:-webkit-any-link {
+    
+    list-style: nome;
+    color: unset;
+
+}
+
+.card-container {
+    display: flex;
+    gap: 20px;
+    
+}
+
+.quadrado-informacoes {
+    width: 100px;
+    height: 150px;
+    background-color: #0b0a0a;
+    border: 1px solid rgb(57, 17, 214);
+    border-radius: 5px;
+    padding: 15px;
+    text-align: left;
+}
